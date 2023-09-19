@@ -1,4 +1,4 @@
-const { default: gustaConn, DisconnectReason, useMultiFileAuthState, fetchLatestBaileysVersion, makeInMemoryStore } = require("@adiwajshing/baileys")
+const { default: gustaConn, DisconnectReason, useMultiFileAuthState, fetchLatestBaileysVersion, makeInMemoryStore } = require("@whiskeysockets/baileys")
 const pino = require('pino')
 const chalk = require('chalk')
 const { green, redBright, magenta } = chalk
